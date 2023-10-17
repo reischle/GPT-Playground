@@ -60,7 +60,7 @@ st.markdown("""
 """)
 
 # apikey = st.text_input("Your API Key", disabled=False, type="password", placeholder="API Key?")
-apikey = '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'
+apikey = 'YOUR-KEY-GOES-IN-HERE'
 input_text = st.text_area("Topic of interest (STRG+Enter drücken, wenn fertig)", disabled=False, placeholder="Was möchtest Du gerne wissen?")
 
 if input_text:
